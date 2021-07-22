@@ -1,0 +1,724 @@
+*{
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #f6f6f5;
+}
+
+header{
+    height: 40px;
+    background-color: #f00a36;
+    position: relative;
+}
+
+.contenedor {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 auto;
+
+}
+
+.row {
+    margin-left: 2px;
+    max-width: 960px;
+    justify-content: center;
+    padding: 0 auto;
+}
+
+.ajust {
+    width: 960px;
+    margin: auto;
+}
+
+.color {
+    color: #f00a36;
+}
+
+.boton {
+    margin-top: 22px;
+    margin-left: 32px;
+}
+
+.buscar {
+    background-color: #f6f6f5 !important;
+    color: #f00a36;
+    border:2px solid #f00a36 ;
+}
+
+.buscar:hover {
+    color: #f6f6f5;
+    background-color: #f00a36 !important;
+}
+
+.fuente {
+    font-family: 'Pacifico', cursive;
+    font-weight: 800;
+
+}
+
+.form-control {
+    width: 252px;
+}
+
+.form-control:hover {
+    border: 2px solid #f00a36;
+}
+
+.btn {
+    height: 38px !important;
+}
+
+.info{
+    margin-top: 22px !important;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    min-width: 140px;
+}
+
+.info> p {
+    align-self: center;
+    margin-top: -10px;
+}
+
+.cabecera {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.altu {
+    height: 167px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.418)) ,url("https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.fondo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.418)) ,url("../img/jessica-lewis-fJXv46LT7Xk-unsplash.jpg");
+}
+
+.altu h4 {
+    transition: all 0.5s ease-out;
+}
+
+.altu h4:hover {
+    color: #ffffff;
+}
+
+.ofert {
+    height: 350px;
+    background-image: url("../img/cinco.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.ofert h2 {
+    transition: all 0.7s ease-out;
+}
+
+.ofert h2:hover {
+    color: #f00a36;
+}
+
+.option {
+    background-color: whitesmoke;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 7px;
+    
+}
+
+.option> a{
+    color: black !important;
+}
+
+.option> a:hover {
+    color: rgb(44, 44, 44) !important;
+}
+
+.naveg {
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    border-top: solid 3px #f00a36;
+}
+
+.menu {
+    display: flex;
+    max-width: 945px;
+    width: 100%;
+}
+
+.micuenta{
+    background-color: black;
+    color: whitesmoke !important;
+    transition: all 0.5s ease-out;
+}
+
+.micuenta:hover{
+    background-color: #f00a36;
+    color: white;
+}
+
+
+.micuenta:hover {
+    color: rgb(255, 208, 0) !important;
+}
+
+
+.naveg> a {
+    margin-left: 20px !important;
+}
+
+.card-img img {
+	width: 227px !important;
+	height: auto;
+    display: block;
+    height: 226px;
+    border-radius: 2%;
+}
+
+.card-img span {
+	position: absolute;
+    top: 15%;
+    left: 18%;
+    background: #f39c12;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+.card-img span h4{
+        font-size: 12px;
+        margin:0;
+        padding:10px 5px;
+         line-height: 0;
+}
+
+.travel {
+    border: 2px solid #aaaaaa;
+    border-radius: 5px;
+    border-left: solid 3px #f00a36;
+}
+
+.imagen {
+    width: 270px;
+    border-radius: 2%;
+}
+
+.info2 {
+    max-width: 350px;
+}
+
+.top {
+    border-radius: 2px;
+    border-top: solid 3px #f00a36;
+    height: 40px;
+    border-bottom: solid 2px #aaaaaa;
+    border-right: solid 2px #aaaaaa;
+    border-left: solid 2px #aaaaaa;
+
+}
+
+.top a>i {
+    font-size: 30px;
+    color: rgb(48, 48, 48);
+    margin-top: 2px;
+}
+
+.top a>i:hover {
+    color: #f00a36;
+}
+
+.viajes {
+    max-height: 55px;
+    word-wrap: break-word;
+}
+
+.viajes img {
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;
+}
+
+.viajes p {
+    font-size: 12px;
+    padding-bottom: 0%;
+}
+
+.viajes a {
+    margin-top: -20px;
+}
+
+.ofertas2 {
+    width: 100%;
+    height: 160px;
+    border-radius: 3px;
+}
+
+.ofertas2 a {
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+
+.ofertas2 a:hover {
+    color: #ffffff !important;
+}
+
+.venecia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.418)), url("../img/Venecia.jpg");
+    background-size: 480px 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.miami {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.418)) ,url("../img/4.jpg");
+    background-size: 480px 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.naveg2 {
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    border-top: solid 3px #f00a36;
+}
+
+.naveg2>a>i {
+    font-size: 38px;
+    color: rgb(48, 48, 48);
+    margin-top: 2px;
+    transition: all 0.5s ease-out;
+}
+
+.naveg2 a>i:hover {
+    color: #f00a36;
+}
+
+.ofertas2>a{
+    margin-top: 15px !important;
+}
+
+.button {
+    text-decoration: none;
+    border: solid 3px #f00a36;
+    color: #f00a36;
+
+}
+
+.more {
+    height: 190px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.418)),  url("../img/alex-jumper-WtxjT8SLVTI-unsplash.jpg");
+    background-size: 100% 190px;
+    border-radius: 5px;
+}
+
+.more a{
+    transition: all 0.4s ease-out;
+}
+
+.more a:hover{
+    color: #f39c12 !important;
+}
+
+.artic {
+    height: 500px;
+}
+
+.contenido {
+    height: 500px;
+}
+
+.contenido1 h4{
+    color: #ffffff !important;
+    margin-left: 10px;;
+}
+
+.contenido1 h5 {
+    color: #ffffff !important;
+    margin-left: 20px;
+}
+
+.contenido2 {
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.contenido2 h4 {
+    margin-left: 10px;;
+}
+
+.info3 {
+    height: 50px;
+    border-top: solid 3px #f00a36;
+}
+
+.info3>h2 {
+    margin-top: 7px;
+}
+
+.contenido1 {
+    height: 450px;
+    width: 355px;
+    background-image: url("../img/karim-manjra-WC8UTKxk2AU-unsplash.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.contenido1 i, .contenido2 i{
+    font-size: 60px;
+    color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.contenido2 {
+    height: 450px;
+    width: 355px;
+    background-image: url("../img/lalo-hernandez-LSaWlsj1IaQ-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    background-attachment: inherit;
+}
+
+.agencia {
+    width: 100%;
+    height: 508px;
+    background-image:url("../img/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg") ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    background-attachment: inherit;
+    justify-content: center;
+}
+
+.agencia .card{
+    height: 100%;
+    background: transparent;
+}
+
+.agencia i{
+    font-size: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-body h3{
+    color: #f39c12 !important;
+    font-weight: 900 !important;
+    transition: all 0.4s ease-out;
+}
+
+.card-body h3:hover {
+    color: black !important;
+}
+
+.subs {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.418)) ,url("../img/juan-pablo-mascanfroni-EiLF_Ra2reE-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    justify-content: center !important;
+}
+
+.subs h3{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.subs input[type=text]{
+    width: 561px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.subs input[type=text]:hover {
+	border:1px solid #000;
+	transition: 6s;
+}
+
+.subs .btn {
+    height: 38px !important;
+    color: white;
+    background-color: #f00a36;
+    width: 133px;
+    border-radius: 50px;
+    transition: all 0.5s ease-out;
+}
+
+.subs .btn:hover {
+    background-color: transparent;
+    color: #f00a36;
+
+}
+
+.subs i{
+    margin-left: 10px;
+}
+
+.subs ::placeholder { 
+    color: #000;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:960px) {
+    *{
+        justify-content: center;
+        max-width: 960px;
+    }
+
+    .contenedor{
+        width: auto !important;
+    }
+
+    .row{
+        width: 100% !important;
+        margin-left: -2px;
+        justify-content: center;
+        padding: 10px auto !important;
+    }
+
+    .info {
+        display: none;
+    }
+
+    main {
+        width: auto !important;
+    }
+
+    .naveg {
+        display: none !important;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .agencia>.card {
+        width: 14rem !important;
+    }
+
+    .micuenta {
+        margin-right: 15px;
+    }
+
+    .desc{
+        display: none;
+    }
+
+    .menu{
+        width: auto !important;
+        font-size: 1.3rem;
+    }
+
+    .menu button{
+        font-size: 1.3rem;
+    }
+
+    .card-img img {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .travel{
+        flex: none;
+        max-width: 80% !important;
+    }
+
+    .contenido1, .contenido2 {
+        width: 320px;
+    }
+
+    .agencia{
+        width: auto !important;
+    }
+
+    .agencia> .card {
+        width: auto !important;
+    }
+
+    .form-control {
+        width: 321px;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .buscar {
+        height: 50px !important;
+        font-size: 1.5rem;
+    }
+
+    .more {
+        width: 95% !important;
+    }
+
+    .more h1 {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+    .more h1 {
+        font-size: 2.1rem;
+    }
+
+    .contenido1, .contenido2 {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    .card-img img {
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    .contenido1, .contenido2 {
+        width: 270px;
+    }
+
+    .info2 {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    header {
+        height: 60px;
+    }
+
+    .ajust h4 {
+        margin-left: 20px;
+    }
+
+    .info3 {
+        display: none;
+    }
+
+    .contenido1, .contenido2 {
+        display: none;
+    }
+
+    .agencia {
+        margin-top: -200px !important;
+    }
+
+    .agencia h5{
+        font-size: 2rem;
+    }
+
+    .agencia p {
+        font-size: 2rem;
+    }
+
+    .agencia h3{
+        font-size: 2.75rem;
+    }
+
+    .artic {
+        height: 203px;
+    }
+
+    .subs input[type=text] {
+        margin-bottom: 20px;
+    }
+
+    .more {
+        width: 97% !important;
+    }
+
+    .more h1 {
+        font-size: 1.85rem;
+    }
+
+    .pad {
+        padding: 0;
+    }
+
+    .trav, .trav2 {
+        margin: auto;
+        padding: 0 !important;
+    }
+
+
+    .miami, .venecia {
+        background-size: 100%;
+    }
+
+    .miami a, .venecia a {
+        font-size: 3rem;
+    }
+
+    .trav2 {
+        margin-left: -10px;
+    }
+
+    .info2 {
+        justify-content: center;
+    }
+
+    .card-img img {
+        width: 170px !important;
+        height: 170px !important;
+    }
+
+    .ofert h2{
+        font-size: 3rem;
+        margin: 0 !important;
+    }
+
+    .ofert h4 {
+        font-size: 2rem;
+        margin: 0 !important;
+    }
+
+    .ofert h1 {
+        font-size: 3.5rem;
+        margin: 0 !important;
+    }
+
+    .altu h4 {
+        font-size: 3rem;
+    }
+
+    .option {
+        height: 60px;
+        border-bottom: solid 1px black;
+    }
+
+    .option h5 {
+        font-size: 1.75rem;
+    }
+}

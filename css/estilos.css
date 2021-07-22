@@ -1,0 +1,61 @@
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+header> h4 {
+    height: 80px;
+}
+
+.altura {
+    height: 50px;
+    padding-top: 12px;
+}
+
+
+.color {
+    color: rgb(185, 60, 60);
+}
+
+.boton {
+    margin-top: 27px;
+}
+
+.form-control {
+    width: 292px;
+}
+
+.btn {
+    font-weight: 700 !important;
+    height: 40px !important;
+}
+
+.info{
+    width: 140px;
+    height: 70px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.ofert {
+    height: 350px;
+    background-image: url("../img/cinco.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 830px 400px;
+    border-radius: 7px;
+}
+
+.altu {
+    height: 170px;
+    background-image: url("../img/jesse-hammer-l30sRFrGLoc-unsplash.jpg");
+    background-size: 250px 175px;
+    border-radius: 7px;
+}
+
+.info2 {
+    align-self: center !important;
+}
+
+
